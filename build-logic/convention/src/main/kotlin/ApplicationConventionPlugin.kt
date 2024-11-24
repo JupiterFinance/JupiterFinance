@@ -23,8 +23,8 @@ class ApplicationConventionPlugin : Plugin<Project> {
       }
       
       compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
       }
       
       buildFeatures {
@@ -34,12 +34,12 @@ class ApplicationConventionPlugin : Plugin<Project> {
     
     extensions.configure<JavaPluginExtension> {
       toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(17))
       }
     }
     
     extensions.configure<KotlinAndroidProjectExtension> {
-      jvmToolchain(21)
+      jvmToolchain(17)
       
       sourceSets.all {
         languageSettings {
