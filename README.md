@@ -1,1 +1,1 @@
-# Júpiter Finance
+# Jupiter Finance
