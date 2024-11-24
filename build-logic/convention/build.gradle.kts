@@ -11,18 +11,18 @@ dependencies {
 
 gradlePlugin {
   plugins {
-    register("template.application") {
-      id = "template.application"
+    register("jupiterfinance.application") {
+      id = "jupiterfinance.application"
       implementationClass = "ApplicationConventionPlugin"
     }
     
-    register("template.library") {
-      id = "template.library"
+    register("jupiterfinance.library") {
+      id = "jupiterfinance.library"
       implementationClass = "LibraryConventionPlugin"
     }
     
-    register("template.compose") {
-      id = "template.compose"
+    register("jupiterfinance.compose") {
+      id = "jupiterfinance.compose"
       implementationClass = "ComposeConventionPlugin"
     }
   }

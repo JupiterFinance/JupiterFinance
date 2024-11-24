@@ -1,9 +1,9 @@
-import dev.trindadedev.template.build.BuildConfig
-import dev.trindadedev.template.build.VersionUtils
+import org.jupiterfinance.app.build.BuildConfig
+import org.jupiterfinance.app.build.VersionUtils
 
 plugins {
-  alias(libs.plugins.template.application)
-  alias(libs.plugins.template.compose)
+  alias(libs.plugins.jupiterfinance.application)
+  alias(libs.plugins.jupiterfinance.compose)
   alias(libs.plugins.kotlin.serialization)
 }
 
