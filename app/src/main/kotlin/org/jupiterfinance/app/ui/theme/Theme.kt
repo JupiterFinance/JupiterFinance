@@ -18,7 +18,7 @@ import androidx.core.view.WindowCompat
 @Composable
 fun JupiterFinanceTheme(
   darkTheme: Boolean = isSystemInDarkTheme(),
-  highContrastDarkTheme: Boolean = false,
+  highContrastDarkTheme: Boolean = true,
   dynamicColor: Boolean = true,
   content: @Composable () -> Unit,
 ) {
